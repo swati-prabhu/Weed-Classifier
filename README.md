@@ -38,14 +38,14 @@ Efficient weed classification is crucial for precision agriculture. This model i
 ```bash
 git clone https://github.com/swati-prabhu/Weed-Classifier.git
 cd Weed-Classifier
-
+---
 ### 2. Install Dependencies
 
 Install the required Python libraries:
 
 ```bash
 pip install torch torchvision scikit-learn matplotlib tqdm
-
+---
 ### 3. Train the Model
 
 Run the training script. You may need to adjust dataset paths inside the script.
@@ -53,12 +53,16 @@ Run the training script. You may need to adjust dataset paths inside the script.
 ```bash
 python ssl014_vs_code_ready.py
 
+---
+
 ### 4. Evaluate the Model
 
 To test the trained model on new images, run the following script:
 
 ```bash
 python weed_test.py
+
+---
 
 ## Checkpoints
 
