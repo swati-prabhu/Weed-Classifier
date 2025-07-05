@@ -35,6 +35,7 @@ Efficient weed classification is crucial for precision agriculture. This model i
 ##  Setup and Usage
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/swati-prabhu/Weed-Classifier.git
 cd Weed-Classifier
@@ -47,7 +48,9 @@ Install the required Python libraries:
 
 ```bash
 pip install torch torchvision scikit-learn matplotlib tqdm
+
 ---
+
 ### 3. Train the Model
 
 Run the training script. You may need to adjust dataset paths inside the script.
