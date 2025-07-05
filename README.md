@@ -32,9 +32,6 @@ Efficient weed classification is crucial for precision agriculture. This model i
 
 ---
 
-##  Repository Structure
-<pre lang="markdown"> ## 📁 Repository Structure ``` Weed-Classifier/ ├── ssl014_vs_code_ready.py # Self-supervised training script ├── weed_test.py # Evaluation and inference script ├── MMIM_checkpoints/ # Directory for model checkpoints │ └── MMIM_best.pth ├── .gitignore ├── .gitattributes ├── README.md # Project documentation ``` </pre>
-
 ##  Setup and Usage
 
 ### 1. Clone the Repository
