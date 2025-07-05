@@ -38,7 +38,9 @@ Efficient weed classification is crucial for precision agriculture. This model i
 ```bash
 git clone https://github.com/swati-prabhu/Weed-Classifier.git
 cd Weed-Classifier
+
 ---
+
 ### 2. Install Dependencies
 
 Install the required Python libraries:
