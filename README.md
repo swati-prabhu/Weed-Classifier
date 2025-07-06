@@ -2,8 +2,6 @@
 
 This repository contains the implementation of a self-supervised learning (SSL) model for weed image classification. The model utilizes a Swin Transformer backbone along with Multi-Masked Image Modeling (MMIM) to learn robust representations without relying on labeled data during training.
 
-This marks my **first Machine Learning model** being published on GitHub, and I am excited to share it with the community.
-
 ---
 
 ## 🔗 Live Demo
@@ -32,6 +30,24 @@ Efficient weed classification is crucial for precision agriculture. This model i
 
 ---
 
+
+
+
+
+
+##Contact
+
+I'm excited to share this ML model on GitHub, and I’d love to hear what you think!
+
+If you have questions, suggestions, or just want to connect:
+- Open an issue on this repository
+- Leave a comment on the [Hugging Face Space](https://tinyurl.com/Weed-Classifier)
+
+Thank you for checking out this project!
+
+
+
+
 ##  Setup and Usage
 
 ### 1. Clone the Repository
@@ -40,7 +56,7 @@ Efficient weed classification is crucial for precision agriculture. This model i
 git clone https://github.com/swati-prabhu/Weed-Classifier.git
 cd Weed-Classifier
 
----
+```
 
 ### 2. Install Dependencies
 
@@ -49,7 +65,7 @@ Install the required Python libraries:
 ```bash
 pip install torch torchvision scikit-learn matplotlib tqdm
 
----
+```
 
 ### 3. Train the Model
 
@@ -58,7 +74,7 @@ Run the training script. You may need to adjust dataset paths inside the script.
 ```bash
 python ssl014_vs_code_ready.py
 
----
+```
 
 ### 4. Evaluate the Model
 
@@ -67,7 +83,7 @@ To test the trained model on new images, run the following script:
 ```bash
 python weed_test.py
 
----
+```
 
 ## Checkpoints
 
@@ -79,8 +95,9 @@ The best-performing model is saved as:
 You can load this checkpoint in `weed_test.py` for evaluation or inference.  
 Make sure the path to this checkpoint is correctly set in your testing script.
 
----
+```
 
+```
 ## Deployment
 
 This model has been deployed and is available for live testing via Hugging Face Spaces.
@@ -92,6 +109,13 @@ You can try out the model here:
 The interface allows you to upload a weed image and get a predicted class based on the trained model.
 
 ---
+## Contributing
+
+Contributions are always welcome!
+
+Refer the points below for ways to get started.
+
+Please adhere to this project's `code of conduct`.
 
 ## How to Use & Contribute
 
@@ -105,7 +129,7 @@ To get started:
 
 Feel free to use this code for your own research, projects, or learning!
 
-### Contributions Welcome
+### Reporting bugs or suggestions
 
 If you find this project helpful or would like to improve it:
 - Star the repository
@@ -116,14 +140,7 @@ Your feedback, suggestions, and contributions are greatly appreciated and encour
 
 ---
 
-##Contact
 
-I'm excited to share this ML model on GitHub, and I’d love to hear what you think!
+## License
 
-If you have questions, suggestions, or just want to connect:
-- Open an issue on this repository
-- Leave a comment on the [Hugging Face Space](https://tinyurl.com/Weed-Classifier)
-
-Thank you for checking out this project!
-
-
+This project is licensed under the [MIT License](LICENSE).
