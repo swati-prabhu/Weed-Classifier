@@ -32,22 +32,6 @@ Efficient weed classification is crucial for precision agriculture. This model i
 
 
 
-
-
-
-##Contact
-
-I'm excited to share this ML model on GitHub, and I’d love to hear what you think!
-
-If you have questions, suggestions, or just want to connect:
-- Open an issue on this repository
-- Leave a comment on the [Hugging Face Space](https://tinyurl.com/Weed-Classifier)
-
-Thank you for checking out this project!
-
-
-
-
 ##  Setup and Usage
 
 ### 1. Clone the Repository
