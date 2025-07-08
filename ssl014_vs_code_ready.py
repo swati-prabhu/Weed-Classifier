@@ -16,11 +16,11 @@ print("GPU available:", torch.cuda.is_available())
 print("GPU name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "No GPU")
 
 # Step 1: Set local paths
-zip_path = r"C:\Users\student\Desktop\WeedClassifier\datasets.zip"
-extract_base = r"C:\Users\student\Desktop\WeedClassifier"
-train_dir = r"C:\Users\student\Desktop\WeedClassifier\weed_dataset_split\train"
-test_dir = r"C:\Users\student\Desktop\WeedClassifier\weed_dataset_split\test"
-checkpoint_path = r"C:\Users\student\Desktop\WeedClassifier\MMIM_checkpoints"
+zip_path = r"C:\kaise\Desktop\WeedClassifier\datasets.zip"
+extract_base = r"C:\kaise\Desktop\WeedClassifier"
+train_dir = r"C:\kaise\Desktop\WeedClassifier\weed_dataset_split\train"
+test_dir = r"C:\kaise\Desktop\WeedClassifier\weed_dataset_split\test"
+checkpoint_path = r"C:\kaise\Desktop\WeedClassifier\MMIM_checkpoints"
 os.makedirs(checkpoint_path, exist_ok=True)
 
 # Step 2: Extract zip
