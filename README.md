@@ -79,7 +79,6 @@ The best-performing model is saved as:
 You can load this checkpoint in `weed_test.py` for evaluation or inference.  
 Make sure the path to this checkpoint is correctly set in your testing script.
 
-```
 
 ```
 ## Deployment
