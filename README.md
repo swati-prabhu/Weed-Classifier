@@ -80,7 +80,7 @@ You can load this checkpoint in `weed_test.py` for evaluation or inference.
 Make sure the path to this checkpoint is correctly set in your testing script.
 
 
-```
+
 ## Deployment
 
 This model has been deployed and is available for live testing via Hugging Face Spaces.
