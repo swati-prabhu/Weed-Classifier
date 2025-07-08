@@ -6,7 +6,7 @@ This repository contains the implementation of a self-supervised learning (SSL) 
 
 ## Live Demo
 
-You can interact with the trained model directly on **Hugging Face Spaces**:
+You can interact with the trained model directly on **Hugging Face Spaces** Where we have created our organinzation:
 
  [Launch the Model on Hugging Face](https://tinyurl.com/Weed-Classifier)
 
