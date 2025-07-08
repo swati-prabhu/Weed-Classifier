@@ -79,8 +79,6 @@ The best-performing model is saved as:
 You can load this checkpoint in `weed_test.py` for evaluation or inference.  
 Make sure the path to this checkpoint is correctly set in your testing script.
 
-
-
 ## Deployment
 
 This model has been deployed and is available for live testing via Hugging Face Spaces.
@@ -92,7 +90,15 @@ You can try out the model here:
 The interface allows you to upload a weed image and get a predicted class based on the trained model.
 
 ---
+
+##Dataset
+
+You can find the datset we used to build our model in the link below:
+
+ [Weed Dataset](https://www.kaggle.com/datasets/nagashreepai/weeddataset)
 ## Contributing
+
+---
 
 Contributions are always welcome!
 
