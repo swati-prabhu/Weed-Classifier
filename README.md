@@ -128,7 +128,13 @@ If you find this project helpful or would like to improve it:
 Your feedback, suggestions, and contributions are greatly appreciated and encouraged!
 
 ---
+## Future Work
 
+- Add instance segmentation capability.
+- Expand dataset diversity.
+- Deploy as a mobile application for farmers.
+
+---
 
 ## License
 
